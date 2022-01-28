@@ -1,4 +1,9 @@
-# This program will translate from normal language to Vernon-Lopez code
+"""
+This program will translate from normal language to Vernon-Lopez code.
+Vernon-Lopez code encodes the position of the characters. For example,
+if an A appears at the first position, it will get translated as 'O', whereas
+if it is in the second position, it will be encoded as 'P', and so on.
+"""
 
 HALF_1 = "ABCDEFGHIJKLM"
 HALF_2 = "NOPQRSTUVWXYZ"
