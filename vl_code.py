@@ -18,11 +18,6 @@ def translate_word(normal_word):
     >>> new_v = translate_word(v)
     >>> print(new_v)
     VDBR
-    
-    >>> v = "puto"
-    >>> new_v = translate_word(v)
-    >>> print(new_v)
-    DJJF
     """
     
     vl_word = ""
